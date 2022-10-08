@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "RobotoBold";
+    src: url(./fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+div.DarkContainer{
+    height: 600px;
+    background-color: #1F2937;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    font-family: "roboto", sans-serif;
+    font-weight: 300;
+    color: #e5e7eb;
+    font-size: 18px;   
+    width: 600px;
+    align-items: center;
+}
+
+.item.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+h3.logo{
+    font-weight: 700;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+#Middel{
+    display: flex;
+    justify-content: center;
+}
+
+.MiddelItem{
+    width: 600px;
+    align-items: center;
+}
+
+h1.MainText{
+    font-family: "roboto", sans-serif;
+    color: #f9faf8;
+    font-size: 84px;
+}
+
+p.Desc{
+    font-family: "roboto", sans-serif;
+    font-weight: 300;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+button.login{
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+}
+
+.BaseImg{
+    width: 600px;
+    height: 300px;
+    margin-top: 70px;
+}
+
+.Ad{
+    font-family: "roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.ImgContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.Images{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.Image.Items{
+    border: solid #3882f6 3px;
+    border-radius: 5px;
+}
+
+.GrayContainer{
+    margin-top: 5rem;
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Gray.Item{
+    display: flex;
+    width: 900px;
+}
+
+.Quote{
+    font-family: "roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: 1f2937;
+}
+
+.CallContainer{
+    margin-top: 5rem;
+    background-color: #3882f6;
+    width: 900px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+
+.CallItems{
+    font-family: "roboto", sans-serif;
+    color: #f9faf8;
+}
+
+.footer{
+    margin-top: 5rem;
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FooterText{
+    font-family: "roboto", sans-serif;
+    color: #f9faf8;
+}
