@@ -142,3 +142,8 @@ button.login{
     font-family: "roboto", sans-serif;
     color: #f9faf8;
 }
+
+.CallMain{
+    display: flex;
+    justify-content: center;
+}
