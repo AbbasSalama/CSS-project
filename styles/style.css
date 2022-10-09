@@ -3,12 +3,12 @@
     src: url(./fonts/Roboto-Bold.ttf) format('truetype');
 }
 
-div.DarkContainer{
-    height: 600px;
-    background-color: #1F2937;
+body{
+    margin: 0;
 }
 
 .heading{
+    background-color: #1f2937;
     display: flex;
     justify-content: center;
 }
@@ -22,6 +22,10 @@ div.DarkContainer{
     align-items: center;
 }
 
+li{
+    list-style: none;
+}
+
 .item.links{
     display: flex;
     justify-content: space-between;
@@ -33,12 +37,15 @@ h3.logo{
     font-size: 24px;
 }
 
-#Middel{
+#top{
+    background-color: #1f2937;
     display: flex;
     justify-content: center;
+    height: 450px;
 }
 
-.MiddelItem{
+.TopItem{
+    margin-top: -3rem;
     width: 600px;
     align-items: center;
 }
@@ -65,10 +72,11 @@ button.login{
 .BaseImg{
     width: 600px;
     height: 300px;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .Ad{
+    margin-top: 3rem;
     font-family: "roboto", sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -80,9 +88,11 @@ button.login{
 .ImgContainer{
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
 }
 
 .Images{
+    margin-top: 2rem;
     display: flex;
     width: 600px;
     justify-content: space-between;
@@ -93,57 +103,53 @@ button.login{
     border-radius: 5px;
 }
 
-.GrayContainer{
+.bottom{
     margin-top: 5rem;
-    height: 400px;
+    height: 500px;
     background-color: #e5e7eb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Gray.Item{
-    display: flex;
-    width: 900px;
-}
-
-.Quote{
     font-family: "roboto", sans-serif;
     font-size: 36px;
     font-weight: 300;
-    color: 1f2937;
-}
-
-.CallContainer{
-    margin-top: 5rem;
-    background-color: #3882f6;
-    width: 900px;
-    border-radius: 5px;
+    color: #1f2937;
     display: flex;
-    justify-content: center;
-    justify-self: center;
-}
-
-.CallItems{
-    font-family: "roboto", sans-serif;
-    color: #f9faf8;
-}
-
-.footer{
-    margin-top: 5rem;
-    height: 100px;
-    background-color: #1f2937;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.FooterText{
+.bottom p{
+    width: 800px;
+}
+
+.CallToAction{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CallContent{
+    height: 125px;
+    width: 900px;
+    background-color: #3882f6;
+    border-radius: 5px;
     font-family: "roboto", sans-serif;
     color: #f9faf8;
+    
 }
 
-.CallMain{
+.CallToAction button{
+    background-color: #3882f6;
+    width: 90px;
+    border: solid;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+footer{
+    margin-top: 5rem;
+    font-family: "roboto", sans-serif;
+    color: #f9faf8;
+    background-color: #1f2937;
     display: flex;
     justify-content: center;
 }

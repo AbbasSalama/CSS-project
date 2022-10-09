@@ -13,17 +13,20 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <div class="DarkContainer">
-        <div class="heading">
-            <div class="item"><h3 class="logo">Your Logo</h3></div>
-            <div class="item links">
-                <a>link one</a>
-                <a>link two</a>
-                <a>link three</a>
-            </div>
-        </div>
-        <div id="Middel">
-            <div class="MiddelItem">
+    <header class="heading">
+        <span class="item"><h3 class="logo">Your Logo</h3></span>
+        <nav>
+            <ul class="item links">
+                <li><a>link one</a></li>
+                <li><a>link two</a></li>
+                <li><a>link three</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="top">
+            <div class="TopItem">
                 <h1 class="MainText">this website is awesome!!</h1>
                 <p class="Desc">dlhdfgh fshgotyrw shsgh ioossghsgh ouyrr yolsghs yorisw iufi. ladfhadfh eofe qeoqeiryqi iqroqeiyrqeoy rqeyrqeryqeor yqeoryqe8r qe0ry qeyrqe ryqeifyr qe qepiy qeip yqeipo qipoey qpoeifefajk guog ag hrowgh oqgh log wrghqoghqgh oqerqo ghq qog </p>
                 <button class="login">Sign up</button>
@@ -31,39 +34,45 @@
             <div class="MiddelItem">
                 <img class="BaseImg" src="./images/books shelf.jpg">
             </div>
-        </div>
-    </div>
+        </section>
 
-    <div class="Ad"><p>Coming Soon!!</p></div>
-    <div class="ImgContainer">
-        <div class="Images">
-            <div class="Image Items"><img width="120px" height="120px" src="./images/algebra.jpg" alt="algebra"></div>
-            <div class="Image Items"><img width="120px" height="120px" src="./images/basic physics.jpg" alt="basic physics"></div>
-            <div class="Image Items"><img  width="120px" height="120px" src="./images/Caesar and Christ.jpg" alt="Caesar and Christ"></div>
-            <div class="Image Items"><img  width="120px" height="120px" src="./images/modren physics.jpg" alt="modren physics"></div>
-        </div>
-    </div>
-
-    <div class="GrayContainer">
-        <div class="Gray Item">
-            <p class="Quote">dlhdfgh fshgotyrw shsgh ioossghsgh ouyrr yolsghs yorisw iufi. ladfhadfh eofe qeoqeiryqi iqroqeiyrqeoy rqeyrqeryqeor yqeoryqe8r qe0ry qeyrqe ryqeifyr qe qepiy qeip yqeipo qipoey qpoeifefajk guog ag hrowgh oqgh log wrghqoghqgh oqerqo ghq qog </p>
-        </div>
-    </div>
-
-    <div class="CallMain">
-        <div class="CallContainer">
-            <div class="CallItems">
-                <h3>Register to action it's time!</h1>
-                <P>Sign up to get the latest books and scientific publications by clicking that button right over there!</P>
+        <section class="middle">
+            <span class="Ad">Coming Soon!!</span>
+            <div class="ImgContainer">
+                <figure>
+                    <img class="Image Items" width="120px" height="120px" src="./images/algebra.jpg" alt="algebra">
+                    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                </figure>
+                <figure>
+                    <img class="Image Items" width="120px" height="120px" src="./images/basic physics.jpg" alt="basic physics">
+                    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                </figure>
+                <figure>
+                    <img class="Image Items" width="120px" height="120px" src="./images/Caesar and Christ.jpg" alt="Caesar and Christ">
+                    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                </figure>
+                <figure>
+                    <img class="Image Items" width="120px" height="120px" src="./images/modren physics.jpg" alt="modren physics">
+                    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                </figure>
             </div>
-            <div>
+        </section>
+    
+        <section class="bottom">
+            <p>dlhdfgh fshgotyrw shsgh ioossghsgh ouyrr yolsghs yorisw iufi. ladfhadfh eofe qeoqeiryqi iqroqeiyrqeoy rqeyrqeryqeor yqeoryqe8r qe0ry qeyrqe ryqeifyr qe qepiy qeip yqeipo qipoey qpoeifefajk guog ag hrowgh oqgh log wrghqoghqgh oqerqo ghq qog </p>
+        </section>
+    
+        <section class="CallToAction">
+            <div class="CallContent">
+                <h3>Register to action it's time!</h3>
+                <P>Sign up to get the latest books and scientific publications by clicking that button down over there!</P>
                 <button>Sign up</button>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
 
-    <div class="footer">
-        <p class="FooterText">Copyright &reg;</p>
-    </div>
+    <footer>
+        <p>Copyright &reg;</p>
+    </footer>
 </body>
 </html>
