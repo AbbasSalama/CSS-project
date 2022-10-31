@@ -1,83 +1,88 @@
-@font-face {
-    font-family: "RobotoBold";
-    src: url(./fonts/Roboto-Bold.ttf) format('truetype');
-}
-
 body{
     margin: 0;
+    font-family: "roboto", sans-serif;
 }
 
-.heading{
+header.heading{
     background-color: #1f2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
 }
 
-.item{
-    font-family: "roboto", sans-serif;
-    font-weight: 300;
-    color: #e5e7eb;
-    font-size: 18px;   
-    width: 600px;
+span.item{
+    display: flex;
+    width: 700px;
     align-items: center;
+}
+
+b.logo{
+    color: red;
+    margin-left: 1rem;
+}
+
+nav ul.item-links{
+    color: #e5e7eb;
+    font-size: small;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
 }
 
 li{
     list-style: none;
 }
 
-.item.links{
-    display: flex;
-    justify-content: space-between;
-}
-
-h3.logo{
-    font-weight: 700;
-    color: #f9faf8;
-    font-size: 24px;
-}
-
 #top{
     background-color: #1f2937;
+    font-size: 24px;
+    color: white;
     display: flex;
     justify-content: center;
-    height: 450px;
-}
-
-.TopItem{
-    margin-top: -3rem;
-    width: 600px;
     align-items: center;
+    position: relative;
 }
 
-h1.MainText{
-    font-family: "roboto", sans-serif;
-    color: #f9faf8;
-    font-size: 84px;
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    background-color: #1f2937cb;
+    height: 180px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-p.Desc{
-    font-family: "roboto", sans-serif;
+.inner-text{
+    width: 90%;
+    font-weight: 100px;
+}
+
+b.MainHeader{
+    color: red;
+}
+
+.OurMission{
+    margin-top: 5rem;
+    height: 400px;
+    background-color: #e5e7eb;
+    font-size: 24px;
     font-weight: 300;
-    color: #f9faf8;
-    font-size: 18px;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-button.login{
-    background-color: #3882f6;
-    border-radius: 5px;
-    color: #f9faf8;
-}
-
-.BaseImg{
-    width: 600px;
-    height: 300px;
-    margin-top: 50px;
+div.mession-text{
+    width: 75%;
 }
 
 .Ad{
-    margin-top: 3rem;
-    font-family: "roboto", sans-serif;
     font-size: 36px;
     font-weight: 700;
     color: #1f2937;
@@ -88,68 +93,94 @@ button.login{
 .ImgContainer{
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
-}
-
-.Images{
-    margin-top: 2rem;
-    display: flex;
-    width: 600px;
-    justify-content: space-between;
+    align-items: center;
+    height: 180px;
 }
 
 .Image.Items{
-    border: solid #3882f6 3px;
+    border: solid #1f2937 3px;
     border-radius: 5px;
 }
 
-.bottom{
+.Image.Items:hover{
+    width: 150px;
+    height: 150px;
+    transition: 400ms ease-in-out;
+}
+
+section.middle{
     margin-top: 5rem;
-    height: 500px;
-    background-color: #e5e7eb;
-    font-family: "roboto", sans-serif;
-    font-size: 36px;
-    font-weight: 300;
-    color: #1f2937;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.bottom p{
-    width: 800px;
-}
-
-.CallToAction{
-    margin-top: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.CallContent{
-    height: 125px;
-    width: 900px;
-    background-color: #3882f6;
-    border-radius: 5px;
-    font-family: "roboto", sans-serif;
-    color: #f9faf8;
-    
-}
-
-.CallToAction button{
-    background-color: #3882f6;
-    width: 90px;
-    border: solid;
-    border-radius: 5px;
-    color: aliceblue;
+figcaption{
+    text-align: center;
+    width: 100%;
+    font-size: small;
+    font-weight: 700;
 }
 
 footer{
     margin-top: 5rem;
-    font-family: "roboto", sans-serif;
+    height: 300px;
     color: #f9faf8;
     background-color: #1f2937;
+}
+
+.justified{
+    height: 263px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copyright{
+    font-size: x-small;
     display: flex;
     justify-content: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.rest-news{
+    margin-top: 1rem;
+    color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.main-event{
+    position: relative;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    
+}
+
+div.mid-block{
+    font-size: 24px;
+    font-weight: 900;
+    position: absolute;
+    top: 85%;
+    background-color: #1f293782;
+    height: 60px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.order{
+    width: 80%;
+    height: 120px;
+    background-color: rgb(170, 9, 9);
+    border-radius: 5px;
 }
