@@ -135,6 +135,14 @@ footer{
     align-items: center;
 }
 
+.address{
+    border-left: #e5e7eb solid 1px;
+}
+
+.margined{
+    margin-left: 0.5rem;
+}
+
 .copyright{
     font-size: x-small;
     display: flex;
