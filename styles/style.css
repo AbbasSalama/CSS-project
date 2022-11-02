@@ -12,8 +12,8 @@ header.heading{
 }
 
 span.item{
+    width: 40%;
     display: flex;
-    width: 700px;
     align-items: center;
 }
 
@@ -22,12 +22,29 @@ b.logo{
     margin-left: 1rem;
 }
 
-nav ul.item-links{
+nav {
     color: #e5e7eb;
     font-size: small;
-    width: 400px;
+   
+}
+
+nav ul.item-links{
     display: flex;
     justify-content: space-between;
+    padding-left: 0;
+}
+
+nav ul.item-links button{
+    height: 35px;
+    width: 80px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    border: none;
+}
+
+nav ul.item-links button:hover{
+    background-color: rgb(170, 9, 9);
+    transition: 400ms ease-in-out;
 }
 
 li{
