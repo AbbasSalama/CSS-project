@@ -31,7 +31,6 @@ nav {
 nav ul.item-links{
     display: flex;
     justify-content: space-between;
-    padding-left: 0;
 }
 
 nav ul.item-links button{
@@ -49,6 +48,9 @@ nav ul.item-links button:hover{
 
 li{
     list-style: none;
+}
+
+ul{
     padding: 0;
     margin: 0;
 }
@@ -140,24 +142,14 @@ figcaption{
 
 footer{
     margin-top: 5rem;
-    height: 400px;
     color: #f9faf8;
     background-color: #1f2937;
 }
 
 .justified{
-    height: 360px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-}
-
-.address{
-    border-left: #e5e7eb solid 1px;
-}
-
-.margined{
-    margin-left: 0.5rem;
+    padding: 3rem;
 }
 
 .copyright{
@@ -225,15 +217,14 @@ div.container{
 }
 
 .justified button{
-    height: 50px;
-    width: 80px;
     background-color: #1f2937;
     color: #e5e7eb;
     border: none;
 }
 
-span.social-media button{
-    width: 50px;
+div.social-media button{
+    width: 35px;
+    height: 35px;
     border-radius: 100%;
 }
 
@@ -244,4 +235,8 @@ span.social-media button{
 .justified button:hover{
     background-color: rgb(170, 9, 9);
     transition: 400ms ease-in-out;
+}
+.quick-links button{
+    height: 30px;
+    width: 70px;
 }
