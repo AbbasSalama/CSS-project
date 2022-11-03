@@ -58,7 +58,7 @@ ul{
 #top{
     background-color: #1f2937;
     font-size: 24px;
-    color: white;
+    color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,7 +194,15 @@ div.mid-block{
 div.container{
     margin-top: 5rem;
     display: flex;
+    align-items: center;
     justify-content: center;
+    height: 150px;
+}
+
+.order:hover{
+    width: 75%;
+    height: 150px;
+    transition: 400ms ease-in-out;
 }
 
 .order{
@@ -239,4 +247,35 @@ div.social-media button{
 .quick-links button{
     height: 30px;
     width: 70px;
+}
+
+.address{
+    width: 20%;
+    border-right: #f9faf8 solid 1px;
+}
+
+.quick-links{
+    width: 9%;
+    border-right: #f9faf8 solid 1px;
+}
+
+.footer-logo{
+    width: 13%;
+    border-right: #f9faf8 solid 1px;
+}
+
+.footer-logo img:hover{
+    height: 180px;
+    width: 160px;
+    transition: 400ms ease-in-out;
+    animation: myFirst 2s infinite linear;
+}
+
+@keyframes myFirst{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
