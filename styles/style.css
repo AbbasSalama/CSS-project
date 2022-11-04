@@ -39,6 +39,7 @@ nav ul.item-links button{
     background-color: #1f2937;
     color: #e5e7eb;
     border: none;
+    border-radius: 8px;
 }
 
 nav ul.item-links button:hover{
@@ -200,25 +201,25 @@ div.container{
 }
 
 .order:hover{
-    width: 75%;
+    width: 60%;
     height: 150px;
     transition: 400ms ease-in-out;
 }
 
 .order{
     color: #f9faf8;
-    width: 70%;
+    width: 55%;
     height: 120px;
     background-color: rgb(170, 9, 9);
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .order button{
-    background-color: rgb(170, 9, 9);
-    color: #f9faf8;
+    background-color: white;
+    color: rgb(170, 9, 9);
     border: #f9faf8 solid 1px;
     border-radius: 3px;
     width: 10%;
@@ -228,6 +229,7 @@ div.container{
     background-color: #1f2937;
     color: #e5e7eb;
     border: none;
+    border-radius: 8px;
 }
 
 div.social-media button{
@@ -251,31 +253,13 @@ div.social-media button{
 
 .address{
     width: 20%;
-    border-right: #f9faf8 solid 1px;
 }
 
 .quick-links{
     width: 9%;
-    border-right: #f9faf8 solid 1px;
 }
 
 .footer-logo{
     width: 13%;
-    border-right: #f9faf8 solid 1px;
-}
-
-.footer-logo img:hover{
-    height: 180px;
-    width: 160px;
-    transition: 400ms ease-in-out;
-    animation: myFirst 2s infinite linear;
-}
-
-@keyframes myFirst{
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
+    margin-top: 1.5rem;
 }
